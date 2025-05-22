@@ -1,0 +1,171 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F5F5F5',
+  },
+  centerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  header: {
+    padding: 16,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E0E0E0',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#1A1A1A',
+  },
+  subtitle: {
+    fontSize: 14,
+    color: '#666666',
+    marginTop: 4,
+  },
+  card: {
+    backgroundColor: '#FFFFFF',
+    marginHorizontal: 16,
+    marginVertical: 8,
+    borderRadius: 12,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    flexDirection: 'row',
+    padding: 12,
+  },
+  magnitudeContainer: {
+    justifyContent: 'center',
+    marginRight: 12,
+  },
+  magnitudeBadge: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  magnitudeText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  detailsContainer: {
+    flex: 1,
+  },
+  place: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#1A1A1A',
+    marginBottom: 4,
+  },
+  infoRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  time: {
+    fontSize: 14,
+    color: '#666666',
+  },
+  depth: {
+    fontSize: 14,
+    color: '#666666',
+  },
+  tsunamiWarning: {
+    backgroundColor: '#FF6B6B20',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 4,
+    marginTop: 8,
+  },
+  tsunamiText: {
+    color: '#FF6B6B',
+    fontSize: 12,
+    fontWeight: '600',
+  },
+  loadingText: {
+    marginTop: 10,
+    fontSize: 16,
+    color: '#666',
+  },
+  errorText: {
+    fontSize: 16,
+    color: '#FF3B30',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  retryButton: {
+    backgroundColor: '#0066CC',
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 8,
+  },
+  retryButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  earthquakeItem: {
+    flexDirection: 'row',
+    backgroundColor: '#FFFFFF',
+    padding: 16,
+    marginHorizontal: 16,
+    marginVertical: 8,
+    borderRadius: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  magnitudeIndicator: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 16,
+  },
+  earthquakeInfo: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+  earthquakeTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#000000',
+    marginBottom: 4,
+  },
+  earthquakeLocation: {
+    fontSize: 14,
+    color: '#666666',
+    marginBottom: 4,
+  },
+  earthquakeDetails: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  earthquakeTime: {
+    fontSize: 12,
+    color: '#999999',
+  },
+  magnitudeDescription: {
+    fontSize: 12,
+    color: '#666666',
+    fontWeight: '500',
+  },
+  skeletonText: {
+    height: 16,
+    backgroundColor: '#E0E0E0',
+    borderRadius: 4,
+    marginBottom: 8,
+  },
+}); 
