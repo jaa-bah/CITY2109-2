@@ -1,5 +1,13 @@
 # Earthquake App
 
+> **Dependencies are not committed.** `node_modules/` is gitignored, so a fresh clone
+> will not run until you install them:
+>
+> ```bash
+> cd 10771837_HCI_VERSION2
+> npm install
+> ```
+
 A React Native mobile application that displays real-time earthquake data from the USGS (United States Geological Survey) API. The app provides comprehensive earthquake monitoring with multiple view options and detailed information about seismic activities.
 
 ## Features
